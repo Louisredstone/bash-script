@@ -1,0 +1,8 @@
+#!/bin/bash
+#hexon row col
+row=$1
+col=$2
+
+echo " __"
+echo "/  \\"
+echo "\\__/"

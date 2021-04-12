@@ -1,4 +1,4 @@
-ssh -T git@github.com
+# ssh -T git@github.com
 git add .
-git commit -m "%date%"
-git push origin master
+git commit -m "$(date +%Y%m%d)"
+git push
